@@ -14,6 +14,19 @@ a {
 
 /* UTILITY */
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .radious {
     border-radius: 5px;
 }
@@ -34,6 +47,14 @@ a {
 
 .bg-green {
     background-color: #7CBB02;
+}
+
+.bg-gray {
+    background-color: #D3D3D3;
+}
+
+.gray {
+    color: #808090;
 }
 
 
@@ -112,4 +133,57 @@ nav ul li a {
     padding: 1.5rem;
     width: fit-content;
     margin-top: 1.5rem;
+}
+
+
+/* MAIN */
+
+.description {
+    height: 10rem;
+    text-align: center;
+    position: relative;
+}
+
+.desc {
+    width: fit-content;
+}
+
+
+/* planes */
+
+.row {
+    margin-top: 3rem;
+}
+
+[class^="col-"] {
+    float: left;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+    padding: 2rem;
+}
+
+.col-33 img {
+    display: block;
+    height: 15rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.col-33 h1 {
+    text-align: center;
+    color: #7CBB02;
+    padding: 2rem 0rem;
+}
+
+.col-33 p {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.small-edge {
+    width: 7rem;
+    border: 1px solid #808090;
+    margin: 0 auto;
 }
