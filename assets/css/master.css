@@ -151,22 +151,22 @@ nav ul li a {
 
 /* planes */
 
-.row {
-    margin-top: 3rem;
-}
-
 [class^="col-"] {
     float: left;
 }
 
+.row {
+    margin-top: 2rem;
+}
+
 .col-33 {
     width: calc(100% / 3);
-    padding: 2rem;
+    padding: 0 2rem;
 }
 
 .col-33 img {
     display: block;
-    height: 15rem;
+    height: 13rem;
     margin: 0 auto;
     text-align: center;
 }
@@ -186,4 +186,34 @@ nav ul li a {
     width: 7rem;
     border: 1px solid #808090;
     margin: 0 auto;
+}
+
+
+/* statistics */
+
+.col-50 img {
+    width: 100%;
+}
+
+.col-50 {
+    width: calc(100% /2);
+}
+
+.col-50-right {
+    padding-right: 10rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.col-50-right h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.col-50-right a {
+    display: inline-block;
+    color: blue;
+    text-decoration: underline;
+    text-transform: initial;
+    margin-top: 1rem;
 }
