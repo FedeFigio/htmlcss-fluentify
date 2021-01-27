@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* UTILITY */
+
+.radious {
+    border-radius: 5px;
+}
+
+
+/* padding */
+
+.p-l-30 {
+    padding-left: 3rem;
+}
+
+
+/* color */
+
+.bg-blue {
+    background-color: #0C325A;
+}
+
+.bg-green {
+    background-color: #7CBB02;
+}
+
+
+/* HEADER */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.img-logo {
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: .5rem;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 .4rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: .4rem;
+    font-size: .8rem;
+}
+
+.ul-right {
+    float: right;
+}
+
+.login-btn {
+    border: 1px solid #FFFFFF;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.jumbo {
+    height: 25rem;
+    background-image: url(../img/background-header.png);
+    background-position: right bottom;
+    background-size: 65%;
+    background-repeat: no-repeat;
+}
