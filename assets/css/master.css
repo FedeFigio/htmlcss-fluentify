@@ -217,3 +217,34 @@ nav ul li a {
     text-transform: initial;
     margin-top: 1rem;
 }
+
+
+/* FOOTER */
+
+footer {
+    height: 10rem;
+}
+
+footer .container {
+    height: 100%;
+}
+
+footer .container>div {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+}
+
+.new-plane {
+    line-height: 10rem;
+}
+
+.select>div,
+.select a {
+    float: right;
+}
+
+.select>a>div {
+    padding: 1.5rem;
+    height: fit-content;
+}
