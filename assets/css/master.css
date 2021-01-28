@@ -237,14 +237,35 @@ footer .container>div {
 
 .new-plane {
     line-height: 10rem;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
-.select>div,
-.select a {
-    float: right;
+.username {
+    padding-top: 3rem;
 }
 
-.select>a>div {
+.username>* {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 1rem;
+    color: gray;
+}
+
+.btn-footer {
     padding: 1.5rem;
-    height: fit-content;
+    width: fit-content;
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+
+/* <!-- HELP --> */
+
+.btn-help {
+    color: #ffffff;
+    position: fixed;
+    padding: .5rem;
+    right: 215px;
+    bottom: 0;
 }
