@@ -252,6 +252,12 @@ footer .container>div {
     color: gray;
 }
 
+select {
+    border: none;
+    background-color: #D3D3D3;
+    text-decoration: underline;
+}
+
 .btn-footer {
     padding: 1.5rem;
     width: fit-content;
